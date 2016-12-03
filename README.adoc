@@ -1,0 +1,3 @@
+== Database unit testing
+
+A common problem when working with database, is how to test that statements are properly bound and sent to the database, and resultsets are properly bound to the domain entities. This project manifests a method to test excactly that, without making any assumptions on frameworks used. To this en it implemented an HSQL in-memory database and populates it with test data comming from a script.
